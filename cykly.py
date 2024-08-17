@@ -1,3 +1,44 @@
+# Tento cyklus je jedním z nejběžnějších a nejdůležitějších prvků Pythonu, který se používá pro iteraci (procházení) přes sekvence, jako jsou seznamy, n-tice, řetězce, slovníky a další iterovatelné objekty.
+
+# proměnná: Toto je jméno proměnné, která v každé iteraci cyklu přijímá hodnotu z sekvence. Tento název může být jakýkoli platný identifikátor, který si vybereš.
+# •	sekvence: Toto je sekvenční objekt (například seznam, n-tice, řetězec, atd.), přes který cyklus prochází. Cyklus for prochází každý prvek v této sekvenci, a v každé iteraci přiřazuje aktuální prvek proměnné proměnná.
+# •	Blok kódu: Kód uvnitř cyklu, který se vykonává pro každý prvek v sekvenci.
+
+# animals = ['cat', 'dog', 'bird']
+
+# for animal in animals:
+# print(animal)
+    
+# V tomto příkladu:
+
+# 	•	animals je seznam, který obsahuje tři prvky: 'cat', 'dog' a 'bird'.
+# 	•	for animal in animals znamená, že cyklus projde každý prvek v seznamu animals.
+# 	•	print(animal) vytiskne aktuální prvek na obrazovku.
+# výstup:
+# cat
+# dog
+# bird
+
+
+# word = "hello"
+
+# for letter in word:
+#     print(letter)
+
+
+# V tomto příkladu:
+
+# 	•	word je řetězec "hello".
+# 	•	for letter in word znamená, že cyklus projde každý znak v řetězci word.
+# 	•	print(letter) vytiskne každý znak na obrazovku.
+ 
+#  výstup:
+# h
+# e
+# l
+# l
+# o
+
 #ovoce = ["jablko", "hruška", "pomeranč", "jahoda"]
 
 #for jedno_ovoce in ovoce:
